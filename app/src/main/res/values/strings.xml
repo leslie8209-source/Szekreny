@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SzekrényTár</string>
+    <string name="app_subtitle">Öltözőszekrény és telefon nyilvántartó</string>
+
+    <!-- Search & Filters -->
+    <string name="search_placeholder">Keresés név, szekrényszám vagy telefon alapján…</string>
+    <string name="search_clear_cd">Keresés törlése</string>
+    <string name="search_icon_cd">Keresés</string>
+    <string name="search_results_count">%1$d találat</string>
+    <string name="filter_all">Összes</string>
+    <string name="filter_multi_locker">Több szekrény</string>
+    <string name="filter_multi_phone">Több telefon</string>
+
+    <!-- Sort -->
+    <string name="sort_button_cd">Rendezés</string>
+    <string name="sort_name_asc">Név szerint (A–Z)</string>
+    <string name="sort_locker_asc">Szekrényszám szerint</string>
+    <string name="sort_recent">Legutóbb módosított</string>
+
+    <!-- Stats -->
+    <string name="stat_people">Személy</string>
+    <string name="stat_lockers">Szekrény</string>
+    <string name="stat_phones">Telefon</string>
+
+    <!-- Person Card -->
+    <string name="section_lockers">Öltözőszekrények</string>
+    <string name="section_phones">Telefonszámok</string>
+    <string name="no_locker_assigned">Nincs megadva szekrényszám</string>
+    <string name="no_phone_assigned">Nincs megadva telefonszám</string>
+    <string name="locker_badge_format">Szekrény #%1$s</string>
+    <string name="badge_multi_lockers">%1$d szekrény</string>
+    <string name="badge_multi_phones">%1$d telefon</string>
+    <string name="action_call_cd">Hívás indítása: %1$s</string>
+    <string name="action_copy_cd">Telefonszám másolása: %1$s</string>
+    <string name="action_edit_cd">%1$s adatainak módosítása</string>
+    <string name="action_delete_cd">%1$s törlése</string>
+    <string name="phone_copied_message">Telefonszám másolva: %1$s</string>
+    <string name="dialer_unavailable_message">Nem található tárcsázó alkalmazás.</string>
+
+    <!-- Empty States -->
+    <string name="empty_title">Még nincs rögzített személy</string>
+    <string name="empty_subtitle">Add hozzá az első nevet, öltözőszekrény-számot és telefonszámot — akár több szekrényt és számot is egy emberhez.</string>
+    <string name="empty_illustration_cd">Öltözőszekrények illusztráció</string>
+    <string name="empty_add_button">Új személy felvétele</string>
+    <string name="no_results_title">Nincs találat</string>
+    <string name="no_results_subtitle">A(z) „%1$s” keresésre nem találtunk egyező adatot.</string>
+    <string name="no_results_clear">Keresés törlése</string>
+    <string name="no_results_create_with_name">Felvétel ezzel a névvel</string>
+    <string name="no_filter_results_subtitle">A kiválasztott szűrőnek jelenleg egyetlen személy sem felel meg.</string>
+    <string name="no_filter_results_reset">Szűrő törlése</string>
+
+    <!-- FAB & Actions -->
+    <string name="fab_add_person">Új személy</string>
+    <string name="action_edit">Módosítás</string>
+    <string name="action_delete">Törlés</string>
+    <string name="action_save">Mentés</string>
+    <string name="action_cancel">Mégse</string>
+
+    <!-- Form (Add / Edit) -->
+    <string name="form_title_add">Új személy felvétele</string>
+    <string name="form_title_edit">Adatok módosítása</string>
+    <string name="form_close_cd">Űrlap bezárása</string>
+    <string name="field_name_label">Név *</string>
+    <string name="field_name_placeholder">pl. Kovács János</string>
+    <string name="field_name_error_empty">A név megadása kötelező.</string>
+    <string name="field_locker_section">Öltözőszekrény számok</string>
+    <string name="field_locker_label">%1$d. szekrényszám</string>
+    <string name="field_locker_placeholder">pl. 104 vagy B-12</string>
+    <string name="field_add_locker">További szekrény hozzáadása</string>
+    <string name="field_remove_locker_cd">Szekrényszám mező eltávolítása</string>
+    <string name="field_locker_duplicate_warning">A(z) #%1$s szekrény már hozzá van rendelve: %2$s</string>
+    <string name="field_phone_section">Telefonszámok</string>
+    <string name="field_phone_label">%1$d. telefonszám</string>
+    <string name="field_phone_placeholder">pl. +36 30 123 4567</string>
+    <string name="field_add_phone">További telefonszám hozzáadása</string>
+    <string name="field_remove_phone_cd">Telefonszám mező eltávolítása</string>
+    <string name="field_note_label">Megjegyzés (opcionális)</string>
+    <string name="field_note_placeholder">pl. Délelőtti műszak, 2. emelet</string>
+    <string name="form_error_need_data">Adj meg legalább egy szekrényszámot vagy telefonszámot.</string>
+    <string name="form_delete_person_button">Személy törlése</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="delete_dialog_title">Személy törlése</string>
+    <string name="delete_dialog_message">Biztosan törölni szeretnéd %1$s összes adatát (szekrényszámok és telefonszámok)? Ez a művelet nem vonható vissza.</string>
+    <string name="delete_dialog_confirm">Törlés</string>
+
+    <!-- Feedback Snackbars -->
+    <string name="snackbar_person_added">%1$s sikeresen rögzítve.</string>
+    <string name="snackbar_person_updated">%1$s adatai frissítve.</string>
+    <string name="snackbar_person_deleted">%1$s törölve a listából.</string>
+</resources>
